@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+ @theme {
+    --color-primary: #7AC6D2;
+    /* --color-primary: #3D90D7; */
+    --color-secondary:#3A59D1;
+    --color-dark:#000000;
+    --color-light:#3D90D7;
+}
+body{
+  @apply  dark:bg-dark bg-white dark:text-light
+}
+.nav {
+  @apply relative lg:w-[80%] text-primary text-2xl flex justify-between items-center mx-4 my-4  md:container gap-4  md:mx-auto 
+}
+
+.nav .active{
+  @apply  dark:text-light font-bold
+
+}
+.nav .links{
+  @apply md:flex md:gap-8 hidden
+}
+.nav .menu{
+  @apply md:hidden ml-4 
+}
+
+.menu_links{
+  @apply absolute top-14 w-[95%] duration-200 ease-out transition-discrete gap-6 text-primary bg-light p-2 font-bold mx-4 md:container md:mx-auto 
+}
+.menu_links a{
+  @apply hover:pl-2 hover:text-secondary
+}
+.menu_links .active{
+  @apply text-secondary 
+}
+.home-cards{
+  @apply lg:w-[80%] py-4  mx-4 md:container md:m-auto 
+}
+.homecard{
+  @apply mr-4
+}
+.section{
+  @apply  my-4  lg:w-[80%] py-4  mx-4 md:container md:m-auto 
+}
+.card{
+  @apply  flex flex-col justify-center items-center gap-4 rounded-2xl p-4 m-2 shadow-[0_3px_8px_rgba(0,0,0,0.24)] dark:shadow-[0_3px_8px_rgba(0,255,255,0.24)] dark:bg-gray-800
+}

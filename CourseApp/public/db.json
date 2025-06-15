@@ -1,0 +1,64 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "What is JavaScript? (in 100 Seconds)",
+      "url": "https://www.youtube.com/embed/XLGLvmuPjAk",
+      "thumbnail": "https://img.youtube.com/vi/XLGLvmuPjAk/0.jpg"
+    },
+    {
+      "id": 2,
+      "title": "TypeScript in 100 Seconds",
+      "url": "https://www.youtube.com/embed/zQnBQ4tB3ZA",
+      "thumbnail": "https://img.youtube.com/vi/zQnBQ4tB3ZA/0.jpg"
+    },
+    {
+      "id": 3,
+      "title": "React in 100 Seconds",
+      "url": "https://www.youtube.com/embed/Tn6-PIqc4UM",
+      "thumbnail": "https://img.youtube.com/vi/Tn6-PIqc4UM/0.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Flutter in 100 Seconds",
+      "url": "https://www.youtube.com/embed/l-YO9CmaSUM",
+      "thumbnail": "https://img.youtube.com/vi/l-YO9CmaSUM/0.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Docker in 100 Seconds",
+      "url": "https://www.youtube.com/embed/Gjnup-PuquQ",
+      "thumbnail": "https://img.youtube.com/vi/Gjnup-PuquQ/0.jpg"
+    },
+    {
+      "id": 6,
+      "title": "MongoDB in 100 Seconds",
+      "url": "https://www.youtube.com/embed/bCqtb-Z5YGQ",
+      "thumbnail": "https://img.youtube.com/vi/bCqtb-Z5YGQ/0.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Firebase in 100 Seconds",
+      "url": "https://www.youtube.com/embed/9kRgVxULbag",
+      "thumbnail": "https://img.youtube.com/vi/9kRgVxULbag/0.jpg"
+    },
+    {
+      "id": 8,
+      "title": "GraphQL in 100 Seconds",
+      "url": "https://www.youtube.com/embed/ed8SzALpx1Q",
+      "thumbnail": "https://img.youtube.com/vi/ed8SzALpx1Q/0.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Git in 100 Seconds",
+      "url": "https://www.youtube.com/embed/USjZcfj8yxE",
+      "thumbnail": "https://img.youtube.com/vi/USjZcfj8yxE/0.jpg"
+    },
+    {
+      "id": 10,
+      "title": "REST APIs in 100 Seconds",
+      "url": "https://www.youtube.com/embed/-MTSQjw5DrM",
+      "thumbnail": "https://img.youtube.com/vi/-MTSQjw5DrM/0.jpg"
+    }
+  ]
+}
